@@ -1,7 +1,7 @@
 # mockito-android-fix-922
 
-[![CircleCI](https://circleci.com/gh/tmurakami/dexopener.svg?style=shield)](https://circleci.com/gh/tmurakami/dexopener)
-[![Release](https://jitpack.io/v/tmurakami/dexopener.svg)](https://jitpack.io/#tmurakami/dexopener)  
+[![CircleCI](https://circleci.com/gh/tmurakami/mockito-android-fix-922.svg?style=shield)](https://circleci.com/gh/tmurakami/mockito-android-fix-922)
+[![Release](https://jitpack.io/v/tmurakami/mockito-android-fix-922.svg)](https://jitpack.io/#tmurakami/mockito-android-fix-922)  
 ![Android](https://img.shields.io/badge/Android-2.2%2B-blue.svg)
 
 The workaround for mockito/mockito#922.
