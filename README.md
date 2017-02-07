@@ -4,7 +4,7 @@
 [![Release](https://jitpack.io/v/tmurakami/mockito-android-fix-922.svg)](https://jitpack.io/#tmurakami/mockito-android-fix-922)  
 ![Android](https://img.shields.io/badge/Android-2.2%2B-blue.svg)
 
-The workaround for mockito/mockito#922.
+The workaround for [mockito/mockito#922](https://github.com/mockito/mockito/issues/922).
 
 ## Installation
 
