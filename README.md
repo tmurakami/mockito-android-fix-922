@@ -18,6 +18,6 @@ repositories {
 And then, add this library as 'androidTestCompile' dependency.
 ```
 dependencies {
-    androidTestCompile 'com.github.tmurakami:mockito-android-fix-922'
+    androidTestCompile 'com.github.tmurakami:mockito-android-fix-922:x.y.z'
 }
 ```
