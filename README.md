@@ -4,7 +4,7 @@
 [![Release](https://jitpack.io/v/tmurakami/dexopener.svg)](https://jitpack.io/#tmurakami/dexopener)  
 ![Android](https://img.shields.io/badge/Android-2.2%2B-blue.svg)
 
-This is the workaround for mockito/mockito#922.
+The workaround for mockito/mockito#922.
 
 ## Installation
 
