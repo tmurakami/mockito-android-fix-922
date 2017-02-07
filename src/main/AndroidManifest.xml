@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.tmurakami.mockito_android_fix_922">
+
+    <!--suppress AndroidDomInspection -->
+    <instrumentation
+        android:name=""
+        android:targetPackage="">
+        <!--suppress AndroidElementNotAllowed -->
+        <meta-data
+            android:name="notPackage"
+            android:value="net.bytebuddy" />
+    </instrumentation>
+
+</manifest>
