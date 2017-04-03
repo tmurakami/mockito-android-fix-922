@@ -8,8 +8,8 @@
         android:targetPackage="">
         <!--suppress AndroidElementNotAllowed -->
         <meta-data
-            android:name="notPackage"
-            android:value="net.bytebuddy" />
+            android:name="notClass"
+            android:value="${notClass}" />
     </instrumentation>
 
 </manifest>

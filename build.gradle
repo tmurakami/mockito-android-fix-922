@@ -1,3 +1,5 @@
+import com.android.ddmlib.DdmPreferences
+
 buildscript {
     repositories {
         jcenter()
@@ -24,7 +26,18 @@ android {
     defaultConfig {
         minSdkVersion 8
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [notClass: [
+                'net.bytebuddy.agent.builder.ResettableClassFileTransformer',
+                'net.bytebuddy.dynamic.loading.NoOpClassFileTransformer',
+                'net.bytebuddy.jar.asm.commons.JSRInlinerAdapter',
+                'net.bytebuddy.jar.asm.commons.TryCatchBlockSorter',
+        ].join(',')]
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    DdmPreferences.setTimeOut 60000
 }
 
 repositories {
